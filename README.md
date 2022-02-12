@@ -2,11 +2,11 @@
 
 As we know water plays an important role in our life so we will talk about the importance of saving it.
 
-After thinking for a long time, we found that most of the wasted water is when we use the shower.
+After analyzing the issue, we came across the conclusion that the vast majority of wasting water happens during showering.
 
-As well as, we found that different shower heads can use anywhere from 9.5 liters (2.5 gallons) per minute to less than 6 liters (1.6 gallons) per minute.
+Moreover, we found that different shower heads can use anywhere from 9.5 liters (2.5 gallons) per minute to less than 6 liters (1.6 gallons) per minute.
 
-Furthermore, Egypt has a water poverty problem and the person's intake of water is less than the average, so we decided to give a little help to make people aware of our high-water usage.
+Furthermore, Egypt has a water poverty problem and the person's intake of water is less than the average, so we decided to do our bet by raising awareness about water usage.
 
 So, we intended to design and build a device that would work on different aspects of our daily use of water in the shower. It can display the total volume of water used per shower, the cost of the water, and the flow rate.
 
@@ -14,7 +14,7 @@ Despite the capability of that device, we have provided an additional feature th
 
 Our device depends on the signal that is generated from the Water Flow Meter Sensor (YF-S201). This sensor generates pulses that are directly proportional to the volume of the water.
 
-We receive the pulses from the sensor through our PCB then we transmit these pulses to our AVR Processor which process this signal and produce a number that indicates the total volume of the water after that we do some mathematical calculation to get the flow rate and cost of water.
+We receive the pulses from the sensor through our PCB then we transmit these pulses to our AVR Processor which process this signal and produce a number that indicates the total volume of the water. After that we do some mathematical calculation to get the flow rate and cost of water.
 
 In the further step, we need to make these values (volume, flow rate, and cost) visible to the user, therefore we used LCD 2*16 to display the values on it as follows:
 **1st mode** It can display the total volume and flow rate
